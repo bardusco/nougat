@@ -43,6 +43,7 @@ setup(
     py_modules=["predict", "app", "train", "test"],
     python_requires=">=3.7",
     install_requires=[
+        "huggingface-hub==0.16.4",
         "transformers>=4.25.1",
         "timm==0.5.4",
         "orjson",
